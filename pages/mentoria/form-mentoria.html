@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Form Mentoria</title>
+    <!-- CSS Files -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <p><span>arrow-left</span>Voltar</p>
+    </nav>
+    <!--  -->
+    <main>
+      <div>
+        <h1>Mentoria</h1>
+        <h2>
+          Preencha o formulário para participar do programa como
+          <strong>Mentor</strong>
+        </h2>
+      </div>
+
+      <div>
+        <h1>1</h1>
+        <p>Termo de Consentimento</p>
+
+        <h1>2 - ok</h1>
+        <p>Informações Pessoais</p>
+      </div>
+
+      <form action="">
+        <h1>Informações Pessoais</h1>
+        <label class="">Nome Completo:</label>
+        <input
+          data-filled="false"
+          placeholder="Nome e sobrenome"
+          class=""
+          type="text"
+          name="name"
+        />
+
+        <label class="">*E-mail para contato</label>
+        <input
+          data-filled="false"
+          placeholder="exemplo@exemplo.com"
+          class=""
+          type="email"
+          name="email"
+        />
+
+        <label class="">Número de WhatsApp</label>
+        <input
+          maxlength="18"
+          data-filled="false"
+          placeholder="(99) 99 9 9999-9999"
+          class=""
+          type="text"
+          name="whatsApp"
+        />
+
+        <label class="">*País</label
+        ><select data-filled="false" class="" name="country">
+          <option value="">Selecione o país</option>
+          <option value="Brasil">Brasil</option>
+          <option value="Argentina">Argentina</option>
+          <option value="Portugal">Portugal</option>
+          <option value="us">Estados Unidos</option>
+          <option value="Canadá">Canadá</option>
+          <option value="Inglaterra">Inglaterra</option>
+          <option value="Espanha">Espanha</option>
+        </select>
+
+        <label class="">*Função pretendida</label
+        ><select data-filled="false" name="role" class="">
+          <option value="">Selecione uma opção.</option>
+          <option value="QA">Analista de Teste - Quality Assurance</option>
+          <option value="DEVF">Programador Frontend</option>
+          <option value="DEVB">Programador Backend</option>
+          <option value="DEVFB">Programador Fullstack</option>
+          <option value="PO">Product Owner</option>
+          <option value="SM">Scrum Master</option>
+          <option value="UX/UI">UX/UI Designer</option>
+        </select>
+
+        <label class="">Período de Disponibilidade</label
+        ><select data-filled="false" name="role" class="">
+          <option value="">Selecione uma opção.</option>
+          <option value="M">Manhã</option>
+          <option value="T">Tarde</option>
+          <option value="N">Noite</option>
+        </select>
+
+        <label class="">Nivel de Senioridade</label
+        ><select data-filled="false" name="role" class="">
+          <option value="">Selecione uma opção.</option>
+          <option value="SE">Sem Experiência</option>
+          <option value="JN">Junior</option>
+          <option value="PL">Pleno</option>
+          <option value="SN">Senior</option>
+        </select>
+
+        <label class="">*Perfil do LinkedIn</label>
+        <input
+          data-filled="false"
+          placeholder="https://linkedin.com/in/seulink"
+          class=""
+          type="text"
+          name="linkedIn"
+        />
+
+        <a
+          href="./form-mentoria-enviado.html"
+          class="text-decoration-none btn btn-danger"
+          type="button"
+          aria-haspopup="dialog"
+          aria-expanded="false"
+          aria-controls="radix-:r3:"
+          data-state="closed"
+        >
+          Enviar dados
+        </a>
+      </form>
+    </main>
+    <!-- JS Files -->
+    <script src="../../js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

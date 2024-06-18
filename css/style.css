@@ -1,0 +1,43 @@
+:root {
+  --color-black: #000000;
+  --color-red: #e53939;
+  --color-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+#modal {
+  width: 600px;
+  height: 100vh;
+  background-color: gray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  animation: modalAnimation;
+  animation-duration: 500ms;
+  text-align: center;
+  overflow: scroll;
+}
+
+@keyframes modalAnimation {
+  from {
+    opacity: 1;
+  }
+  from {
+    opacity: 0;
+  }
+}
+
+.span-required {
+  display: none;
+  margin: 3px 0 0 1px;
+  font-size: 12px;
+  color: var(--color-red);
+}
